@@ -46,7 +46,7 @@ public class CustomerController {
 	@PostMapping("/customers")
 	public Customer addCustomer( @RequestBody Customer customer) {
 		
-		customer.setId(0);
+//		customer.setId(0);
 		
 		customerService.addCustomer(customer);
 		
